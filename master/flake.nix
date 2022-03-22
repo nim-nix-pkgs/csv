@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-csv-master.flake = false;
+  inputs.src-csv-master.ref   = "refs/heads/master";
   inputs.src-csv-master.owner = "achesak";
-  inputs.src-csv-master.ref   = "master";
   inputs.src-csv-master.repo  = "nim-csv";
   inputs.src-csv-master.type  = "github";
   
