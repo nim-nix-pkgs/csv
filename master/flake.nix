@@ -11,6 +11,7 @@
   inputs.src-csv-master.ref   = "refs/heads/master";
   inputs.src-csv-master.owner = "achesak";
   inputs.src-csv-master.repo  = "nim-csv";
+  inputs.src-csv-master.dir   = "";
   inputs.src-csv-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
